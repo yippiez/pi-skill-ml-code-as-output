@@ -1,0 +1,26 @@
+{
+  "name": "pi-skill-ml-code-as-output",
+  "version": "0.1.0",
+  "description": "Pi skill for training small interpretable models and emitting learned structure as code.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "skills",
+    "ml",
+    "codegen"
+  ],
+  "license": "MIT",
+  "files": [
+    "skills",
+    "README.md"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
