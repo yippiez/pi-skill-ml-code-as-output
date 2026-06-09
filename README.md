@@ -4,6 +4,11 @@ Standalone Pi skill package for the `ml-code-as-output` workflow.
 
 This skill guides the agent to train small interpretable models and emit the learned structure as readable source code instead of opaque weights.
 
+## Status
+
+This workflow has been integrated into [yippiez/noeis](https://github.com/yippiez/noeis).
+Use `noeis` from now on instead of installing this standalone Pi skill package.
+
 ## Includes
 
 - `skills/ml-code-as-output/SKILL.md` — main skill instructions.
